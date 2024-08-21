@@ -109,7 +109,7 @@ all:
           - prefix semver pgunit md5hash asn1oid roaringbitmap pgfaceting pgsphere pg_country pg_currency pgmp numeral pg_rational ip4r timestamp9 chkpass pg_uri pgemailaddr acl
           - topn pg_gzip pg_http pg_html5_email_address pgsql_tweaks pg_timeit count_distinct extra_window_functions first_last_agg tdigest aggs_for_arrays pg_arraymath pg_uuidv7 permuteseq pg_hashids sequential_uuids
           - pg_math pg_random pg_base36 pg_base62 floatvec pg_financial pgjwt shacrypt cryptint pg_ecdsa pgpcre icu_ext envvar url_encode pg_zstd aggs_for_vecs quantile lower_quantile pgqr pg_protobuf
-          - pg_repack pg_squeeze pg_dirtyread pgfincore ddlx pg_prioritize pg_checksums pg_readonly safeupdate pg_permissions pgautofailover pg_catcheck preprepare pgcozy pg_orphaned pg_crash pg_cheat_funcs pg_savior pg_fio #pgpool pgagent table_log
+          - pg_repack pg_squeeze pg_dirtyread pgfincore ddlx pg_prioritize pg_checksums pg_readonly safeupdate pg_permissions pgautofailover pg_catcheck preprepare pgcozy pg_orphaned pg_crash pg_cheat_funcs pg_savior table_log pg_fio #pgpool pgagent
           - pg_stat_kcache pg_stat_monitor pg_qualstats pg_store_plans pg_track_settings pg_wait_sampling system_stats pg_meta pgnodemx pg_sqlog bgw_replstatus toastinfo pagevis powa pg_mon
           - passwordcheck pgsodium pg_vault anonymizer pgaudit17_15* pgauditlogtofile pg_auth_mon credcheck pgcryptokey pg_jobmon logerrors set_user pg_snakeoil pgextwlist pg_auditor sslutils noset
           - multicorn mysql_fdw tds_fdw sqlite_fdw pgbouncer_fdw mongo_fdw redis_fdw hdfs_fdw aws_s3 log_fdw #oracle_fdw #db2_fdw
